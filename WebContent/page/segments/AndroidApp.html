@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	 <head>
+	 	 <script type="text/javascript">
+	    function getDropDownMenu(gl){
+	     var c;
+	     if(gl == 0){
+		   c="none";
+	     }else{
+		   c="block";
+	      }
+	     document.getElementById("menu").style.display = c;
+	    }
+	     </script>
+	     <style>
+	 
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 13px 35px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.topnav a:hover {
+  background-color: #006633;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #006633;
+  color: white;
+}
+.right {
+    text-align: right;
+    float: right;
+}
+img.flex {
+    width: 100%;
+    height: auto;
+}
+img.flexForLogo {
+    width: 20%;
+    height: 90px;
+	align : middle;
+	border : 1px solid green;
+	border-bottom :2px solid green;
+	
+	
+}
+
+div.background {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px Maroon;	
+	display:block;
+}
+div.bgalternativo {
+    width: 100%;
+    height: 300px;
+	background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px Maroon;
+}
+div.bgalternativoForLogo {
+    width: 100%;
+    height: 90px;
+	background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid green;
+	overflow: hidden;
+}
+p.formatter{
+   color:black;   
+}
+.evidenzias{
+    
+}
+.evidenzias a.onmouseleave{
+   background-color:#006633;
+} 
+.evidenzias a{
+  background-color: #006633;
+  color: white;
+}
+.div mission{
+   position : static;
+
+}
+.div container{
+   position static;
+   height:auto;
+   width: auto;
+}
+.line{display:block; margin:45px}
+.line h2{font-size:25px; text-align:center; border-bottom:1px solid green; position:relative; }
+.line h2 span { background-color: white; position: static; top: 10px; padding:0 10px;}
+.line p{font-size:25;position: static; top: 10px; padding: 80 50px;}
+
+
+     </style>
+     <head>
+        <title>Bootstrap Example</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     </head>
+	 <body  style="background-color:#292727">    	    
+	    <div class="topnav" id="myTopnav">
+           <a href="../../index.html">Home</a>
+		   <a href="Cloud.html">Cloud</a>
+		   <a href="AndroidApp.html" class="active">Android App</a>
+           <a href="#news">Le nostre offerte</a>
+           <a href="#contact">Contatti</a>
+		   <a href="Cloud.html">Cloud</a>
+           <a href="#about">Chi siamo</a>
+		   <a class="#help" href="#home">Aiuto</a>
+		   <div class="right" Id="dhtmlgoodies_menu">
+		      <ul  class="right" Id="dhtmlgoodies_menu">
+		      <li><a href="Login" Id="revelator" onmouseover="getDropDownMenu(1)" onmouseleave="getDropDownMenu(1)">Benvenuto</a>
+			      <img src="../../image/ImageLogoAppCubeEnter.png" width="35px" height="43px"/></li>
+				  <ul Id="menu" style="display:none">
+			        <li><a onmouseover="getDropDownMenu(1)" onmouseleave="getDropDownMenu(0)" href="imieiaquisti">Storico acquisti</a></li>
+			        <li><a onmouseover="getDropDownMenu(1)" onmouseleave="getDropDownMenu(0)" href="dettagliAbb">Date e scadenze</a></li>
+					<li><a onmouseover="getDropDownMenu(1)" onmouseleave="getDropDownMenu(0)" href="help">Aiuto</a></li>
+					<li><a onmouseover="getDropDownMenu(1)" onmouseleave="getDropDownMenu(0)" href="logout">Esci</a></li>
+		      </ul>
+			  </ul>
+		   </div>
+        </div>	
+		<div class="bgalternativoForLogo">
+		<center>
+		<img src = "../../image/CubeChain_app_logo.PNG"  class="flexForLogo"/>
+		</center>
+		</div>
+		<div class="background">
+	<font color = "white" face="Italian">
+	   <div class="container">
+	   
+		  <div class="line">
+			 <div class="col-sm-4">
+			       <h2>ChainCube App</h2>
+				   <span >
+                      <p>Da qui, ti sarà possibile scaricare la nostra applicazione Android,
+					     grazie alla quale sarà possibile monitorare i tuoi profitti ovunque tu sia!!</p>
+				   </span>	
+             </div>
+             <div class="col-sm-4">			    
+                     		
+             </div>
+             <div class="col-sm-4">
+			 <img src="../../image/ImageLogoAppCubeEnter.png" width="50px" height="65px"/>
+			 <a href ="Androidapp.app"><h2>Scaricala da qui</h2></a>
+             </div>
+          </div>
+       </div>
+	   </font>
+	   </div>
+	   <br/>
+	   <font color = "white" face="Italian">
+	   <center>
+	   <div class="container">	   
+	      
+	      <h2 style="color:white;border-bottom:1px solid green">Come posso beneficiarne? ... </h2><br/>
+
+	   </div>
+			 <div>
+			    <p>ChainCube App, dotata di un interfaccia grafica versatile ed semplificata,
+                   è in grado di offrire una User-experience formidabilmente comprensibile e completa.
+				   E' di fatto una perla offerta da ChainCube, la cui priorità è accontentare i propri
+				   clienti, dando loro la possibilità di monitorare h24 i propri guadagni, in maniera
+				   veloce ed ovunque essi siano.<br/>
+				   L'interfaccia dispone di un comando per minare, ed una slide-bar per aumentare l'Hash-rate
+				   con un pratico ritorno a video di quanto guadagnato fino a quel momento. Vi è in oltre una sezione
+				   Wallet, accessibile solo con il proprio Bar-code, grazie alla quale l'utente potrà ritirare la propria
+				   pecunia. Tale strumento in oltre è in continuo sviluppo, e continuerà ad esserlo, fin tanto che vi saranno
+				   contributi dai nostri più affezionati clienti a darci un loro feedback sul nostro forum</p>
+             </div>
+	   </center>
+	   </font>
+	   <script src="bootstrap-4.0.0-dist\js\bootstrap.min.js"/>
+	   	   <font color="white" background="#DC2A2A" class="evidenzias">
+	      <div class="topnav">
+		  	 <br/>
+			    <div class="container">
+				<h3>Seguici anche sulle nostre pagine social:<h3><br/>
+			       <div class="col-sm-4"> 
+				      <h4>Facebook:</h4>
+			          <h5><a href="C.ChainCube">C.ChainCube</a></h5>
+				   </div>
+				   <div class="col-sm-4">
+				   </div>
+				   <div class="col-sm-4"> 
+			          <h4>Twitter:</h4>
+					  <h5><a href="C.ChainTwittCube">C.ChainTwittCube</a></h5>
+				   </div>
+				</div>
+	      </div>
+	   </font>
+	</body>
+</html> 
+<!--
+//SLIDER
+Librerie per grafici 
+//I CHART 
+//JGREED 
+//-->
+
+<!--
+       <p> Ad oggi i progressi fatti nel Cloud sono numerosi, in particolare se consideriamo l'avanzare nella tecnologia BlockChain<br/>
+	       Noi vi offriamo soluzioni Cloud per avere un posto nel complesso mondo delle criptovalute. Grazie ad un'interfaccia User-Frendly<br/>
+		   sarà possibile guadagnare e gestire i vostri cryptocoin in modo veloce ed facile da gestire. Ciascun problema sarà gratuitamente <br/>
+		   curato dal nostro attento staff tecnico operativo 24h/7.
+	   </p>
+	    
+	   
+	   
+	   //tenerlo per prova::::::
+	   
+       <p> 
+	      <font color="white">
+	       Ad oggi i progressi fatti nel Cloud sono numerosi, in particolare se consideriamo l'avanzare nella tecnologia BlockChain<br/>
+	       Di fatto, avere ad oggi un portafoglio per criptovalute (wallet) è diventato indispensabile, per rimanere al passo con i<br/>
+		   grandi progressi dell'economia, ed i software con interfaccia grafica sono molto pochi. Grazie al Cloud  siamo  oggi  in<br/>
+		   grado di offrirti un perpetuo controllo, online (dal nostro sito), oppure  dalla nostra app <a href="urlAccazzo">Android<a/><br/>
+	      </font>
+       </p>
+       </div>
+       
+       -->
+
+

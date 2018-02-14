@@ -1,0 +1,142 @@
+@CHARSET "ISO-8859-1";
+
+#navBarHeader{
+	background:transparent;
+	background-image:none;
+	border-color:transparent;
+ 	box-shadow:6px 6px 5px #403d37; 
+	border-radius: 8px;
+	position: fixed;/* Stay in place*/
+	z-index: 1; /*Sit on top*/
+	width: 100%;
+	margin: 0 auto;
+	background: -webkit-linear-gradient(left, #003d66, #ccebff); 
+	background: -moz-linear-gradient(left, #006bb3, #99d6ff); 
+ 	background: -ms-linear-gradient(left,  #0099ff, #66c2ff); 
+}
+
+#colorForMenu{
+	
+	background: -webkit-linear-gradient(left, #003d66, #ccebff); 
+	background: -moz-linear-gradient(left, #006bb3, #99d6ff); 
+ 	background: -ms-linear-gradient(left,  #0099ff, #66c2ff); 
+}
+ 
+#colorForTextLog{
+	
+	color:#003d66;
+}
+
+#colorForText{
+	
+	color:white;
+}
+#colorForText:hover{
+	
+	color:#006bb3;
+}
+#riga2{
+	background-color: #ebebe0;
+	margin-bottom:10%;
+	/*#ebebe0*/
+}
+#riga1{
+	background-color: white;
+	/*#ebebe0*/
+}
+#cuboImage{
+	width:15%;
+	height:15%;
+	margin-left:3%;
+}
+
+#subContainer{
+	background-image: url("../image/images.jpg");
+    background-size: cover;
+	background-attachment: fixed;
+	/**/
+    	
+}
+
+#container{
+	background-color:white; /*#272B2B*/
+    background-size: cover;
+	
+
+	}
+
+#header{
+	padding-bottom: 50%;
+	background-size:100%;
+}
+
+#slide1{
+	text-align: left-side;
+}
+
+#titoloCreaIlTuoGuadagno{
+	text-align: center;
+	
+}
+
+.card{
+	text-align: center;
+	display:block;
+	
+}
+
+#headerCard{
+	background-color:white;
+	
+}
+
+#varietaScelta{
+	margin-left : 15%;
+	text-align:justify;
+	font-family:Arial;
+	width: 70%;
+	
+}
+
+#assistenzaParag{
+	text-align:justify;
+	font-family:Arial;
+	margin-left : 15%;
+	width: 70%;
+}
+
+#accessibilitaParag{
+	text-align:justify;
+	margin-left : 15%;
+	font-family:Arial;
+	width: 70%;
+}
+
+/* #effectWordContainer{ */
+/* 	margin-top:5%; */
+/* 	font-family: Arial;	 */
+/* 	vertical-align:text-top; */
+/* } */
+/*
+#effectWord{
+	margin-top:5%;
+	font-style: Arial;
+	color:white;
+	vertical-align: text-top;
+	
+}
+
+#effectWordSub{
+	margin-top:10%;
+	font-style:italic;
+	color:white;
+	vertical-align: text-top;
+}*/
+#myCarousel{
+	margin-top:10%;
+	margin-bottom:10%;
+}
+#mission{
+	text-align:middle;
+	text-decoration: underline #0099ff;
+}
